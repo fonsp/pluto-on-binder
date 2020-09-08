@@ -7,7 +7,7 @@ setuptools.setup(
   entry_points={
       'jupyter_serverproxy_servers': [
           # name = packagename:function_name
-          'plutoserver = plutoserver:setup_plutoserver',
+          'pluto = plutoserver:setup_plutoserver',
       ]
   },
   install_requires=['jupyter-server-proxy'],

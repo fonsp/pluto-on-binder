@@ -1,3 +1,4 @@
-mv plutoserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
+#!/bin/bash
+# mv plutoserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
 # enable the extension
-jupyter serverextension enable --sys-prefix plutoserverextension
+# jupyter serverextension enable --sys-prefix plutoserverextension

@@ -1,3 +1,3 @@
 from subprocess import Popen
 def load_jupyter_server_extension(nbapp):
-    Popen(["julia", "-e", "import Pluto; Pluto.run(\"0.0.0.0\", 1234)"])
+    Popen(["julia", "-e", "import Pluto; Pluto.run(\"0.0.0.0\", 1234; security=Pluto.ServerSecurity(false))"])

@@ -15,8 +15,8 @@ using PackageCompiler
 Pkg.activate(".")
 Pkg.instantiate()
 Pkg.API.precompile()
-proj = Pkg.API.project()
+proj = Pkg.API.project();
 pkgs = Symbol.(keys(proj.dependencies))
-proj.ispackage && push!(pkgs, Symbol(proj.name))
+proj.ispackage && push!(pkgs, Symbol(proj.name));
 create_sysimage(pkgs, precompile_statements_file=isfile("precompile.jl") ? "precompile.jl" : String[], replace_default=true)
 __EOF__

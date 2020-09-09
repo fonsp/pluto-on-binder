@@ -17,7 +17,7 @@ session.notebooks[nb.notebook_id] = nb;
 Pluto.update_save_run!(session, nb, nb.cells; run_async=false, prerender_text=true)
 
 # nice! we ran the notebook, so we already precompiled a lot
-
+#= 
 @info "Starting HTTP server"
 # next, we'll run the HTTP server which needs a bit of nasty code
 t = @async Pluto.run(40404; session=session)
@@ -29,4 +29,4 @@ download("http://localhost:40404/")
 
 # this is async because it blocks for some reason
 # @async Base.throwto(t, InterruptException())
-# sleep(2) # i am pulling these numbers out of thin air
+# sleep(2) # i am pulling these numbers out of thin air =#

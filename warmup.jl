@@ -1,20 +1,22 @@
 # https://www.youtube.com/watch?v=m2DvmHusyk4
 
-import Pluto
+1 + 1
 
-session = Pluto.ServerSession()
+# import Pluto
 
-path = tempname()
-original = joinpath(pathof(Pluto) |> dirname |> dirname, "sample", "Tower of Hanoi.jl")
-# so that we don't overwrite the file:
-Pluto.readwrite(original, path)
+# session = Pluto.ServerSession()
 
-@info "Loading sample notebook"
-nb = Pluto.load_notebook(Pluto.tamepath(path));
-session.notebooks[nb.notebook_id] = nb;
+# path = tempname()
+# original = joinpath(pathof(Pluto) |> dirname |> dirname, "sample", "Tower of Hanoi.jl")
+# # so that we don't overwrite the file:
+# Pluto.readwrite(original, path)
 
-@info "Running sample notebook"
-Pluto.update_save_run!(session, nb, nb.cells; run_async=false, prerender_text=true)
+# @info "Loading sample notebook"
+# nb = Pluto.load_notebook(Pluto.tamepath(path));
+# session.notebooks[nb.notebook_id] = nb;
+
+# @info "Running sample notebook"
+# Pluto.update_save_run!(session, nb, nb.cells; run_async=false, prerender_text=true)
 
 # nice! we ran the notebook, so we already precompiled a lot
 #= 

@@ -18,5 +18,5 @@ Pkg.API.precompile()
 proj = Pkg.API.project();
 pkgs = Symbol.(keys(proj.dependencies))
 proj.ispackage && push!(pkgs, Symbol(proj.name));
-create_sysimage(pkgs, precompile_statements_file=isfile("precompile.jl") ? "precompile.jl" : String[], replace_default=true)
+create_sysimage(pkgs, precompile_statements_file=isfile("precompile.jl") ? "precompile.jl" : String[]; sysimage_path=expanduser("~/compiled_image.so"))
 __EOF__

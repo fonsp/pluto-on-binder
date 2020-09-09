@@ -1,4 +1,22 @@
 #!/bin/bash
-# mv plutoserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
-# enable the extension
-# jupyter serverextension enable --sys-prefix plutoserverextension
+
+echo "== warmup start =="
+# ! means that it is allowed to fail
+! julia -e "import Pkg; Pkg.activate(\".\"); Pkg.instantiate(); Pkg.API.precompile();"
+! julia --project=$(pwd) --trace-compile="precompile.jl" warmup.jl
+echo "== warmup done =="
+! wc -l precompile.jl
+echo ""
+
+julia <<__EOF__
+import Pkg
+# Pkg.add(Pkg.PackageSpec(name="PackageCompiler", version="1.2.1"))
+using PackageCompiler
+Pkg.activate(".")
+Pkg.instantiate()
+Pkg.API.precompile()
+proj = Pkg.API.project()
+pkgs = Symbol.(keys(proj.dependencies))
+proj.ispackage && push!(pkgs, Symbol(proj.name))
+create_sysimage(pkgs, precompile_statements_file=isfile("precompile.jl") ? "precompile.jl" : String[], replace_default=true)
+__EOF__

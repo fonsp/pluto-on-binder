@@ -1,4 +1,5 @@
 [deps]
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
 Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
 
 [compat]

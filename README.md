@@ -6,7 +6,7 @@
 
 #### First try:
 
-https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=/proxy/1234/
+broken link https://mybinder.org/v2/gh/fonsp/pluto-on-binder/master?urlpath=/proxy/1234/
 
 **time until you see _Welcome to binder_**: not possible to have a direct link
 **time until you see the main menu**: 18sec

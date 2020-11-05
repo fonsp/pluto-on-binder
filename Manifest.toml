@@ -1,5 +1,11 @@
 # This file is machine-generated - editing it directly is not advised
 
+[[Artifacts]]
+deps = ["Pkg"]
+git-tree-sha1 = "c30985d8821e0cd73870b17b0ed0ce6dc44cb744"
+uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+version = "1.3.0"
+
 [[Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
@@ -27,6 +33,11 @@ version = "0.5.0"
 deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
+[[JLLWrappers]]
+git-tree-sha1 = "c70593677bbf2c3ccab4f7500d0f4dacfff7b75c"
+uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+version = "1.1.3"
+
 [[LibGit2]]
 deps = ["Printf"]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
@@ -48,10 +59,10 @@ uuid = "739be429-bea8-5141-9913-cc70e7f3736d"
 version = "1.0.3"
 
 [[MbedTLS_jll]]
-deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "c0b1286883cac4e2b617539de41111e0776d02e8"
+deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
+git-tree-sha1 = "0eef589dd1c26a3ac9d753fe1a8bcad63f956fa6"
 uuid = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
-version = "2.16.8+0"
+version = "2.16.8+1"
 
 [[MsgPack]]
 deps = ["Serialization"]
@@ -65,11 +76,11 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Dates", "Distributed", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "UUIDs"]
-git-tree-sha1 = "0634363369a8ddf9085029dcf8dd3b5bb19a356e"
-repo-rev = "b64e479da8b844428c80a97f0fa613ba8a980435"
+git-tree-sha1 = "d885b68c3943fb1a582baaaa7f99b931c39ad21a"
+repo-rev = "260f7b35c570c616f23063303e96c4a0441c3797"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.12.4"
+version = "0.12.6"
 
 [[Printf]]
 deps = ["Unicode"]

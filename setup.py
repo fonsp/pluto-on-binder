@@ -12,3 +12,7 @@ setuptools.setup(
   },
   install_requires=['jupyter-server-proxy'],
 )
+
+# because this is a demo of Pluto, we add some popular packages to the global package env and precompile
+import os
+os.system('julia -e "import Pkg; Pkg.add([\\"DataFrames\\", \\"CSV\\", \\"Plots\\"]); Pkg.precompile()"')

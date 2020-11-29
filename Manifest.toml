@@ -29,9 +29,9 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[FuzzyCompletions]]
 deps = ["REPL"]
-git-tree-sha1 = "d94b11c69e1d1029f680e3a901ec68059e0b0b93"
+git-tree-sha1 = "5ca3ddf3061771d25d1699ce53a80a39300811e3"
 uuid = "fb4132e2-a121-4a70-b8a1-d5b831dcdcc2"
-version = "0.3.0"
+version = "0.4.0"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "Sockets"]
@@ -101,9 +101,9 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Dates", "Distributed", "FuzzyCompletions", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "Tables", "UUIDs"]
-git-tree-sha1 = "525d401ff4d1cecb6c4fbd996902ae4512a2edfe"
+git-tree-sha1 = "0421244e5a51f7a96e0e711f07b4d60ba73bd2f3"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.12.14"
+version = "0.12.15"
 
 [[Printf]]
 deps = ["Unicode"]

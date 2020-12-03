@@ -101,9 +101,9 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Dates", "Distributed", "FuzzyCompletions", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "Tables", "UUIDs"]
-git-tree-sha1 = "0421244e5a51f7a96e0e711f07b4d60ba73bd2f3"
+git-tree-sha1 = "b47284ddc0d3204f0d7eab8d7773e19142da2bd5"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.12.15"
+version = "0.12.16"
 
 [[Printf]]
 deps = ["Unicode"]

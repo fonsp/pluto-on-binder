@@ -11,6 +11,7 @@ setuptools.setup(
       ]
   },
   install_requires=['jupyter-server-proxy-cors'],
+  dependency_links=['http://github.com/fonsp/jupyter-server-proxy/tarball/59e872f79fb901fd2c05fa731b92f732fdd9dddd#egg=jupyter-server-proxy-cors']
 )
 
 # because this is a demo of Pluto, we add some popular packages to the global package env and precompile

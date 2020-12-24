@@ -10,7 +10,7 @@ setuptools.setup(
           'pluto = plutoserver:setup_plutoserver',
       ]
   },
-  install_requires=['jupyter-server-proxy'],
+  install_requires=['jupyter-server-proxy-cors'],
 )
 
 # because this is a demo of Pluto, we add some popular packages to the global package env and precompile

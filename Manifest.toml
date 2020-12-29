@@ -35,9 +35,9 @@ version = "0.4.0"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "Sockets", "URIs"]
-git-tree-sha1 = "9634200f8e16554cb1620dfb20501483b873df86"
+git-tree-sha1 = "63055ee44b5c2b95ec1921edcf856c60124ff0c3"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "0.9.0"
+version = "0.9.2"
 
 [[IniFile]]
 deps = ["Test"]
@@ -101,11 +101,11 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Dates", "Distributed", "FuzzyCompletions", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "Tables", "UUIDs"]
-git-tree-sha1 = "41927b687ee3c553dd8dac28f4183326b054bd54"
-repo-rev = "af3eb766b516309948e6afd8906f84190eb961cc"
+git-tree-sha1 = "9b6f46fb347ace8d24ca705f5e42d9c3b10843f8"
+repo-rev = "master"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.12.17"
+version = "0.12.18"
 
 [[Printf]]
 deps = ["Unicode"]

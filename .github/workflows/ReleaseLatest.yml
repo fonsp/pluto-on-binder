@@ -1,0 +1,37 @@
+name: Tag latest version on Pluto release
+
+on:
+    workflow_dispatch:
+    repository_dispatch:
+        types: [release_pluto]
+
+jobs:
+    tag:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Install Julia
+              uses: julia-actions/setup-julia@v1
+              with:
+                  version: 1.6
+
+            - uses: octokit/request-action@v2.x
+              id: get_latest_release
+              with:
+                  route: GET /repos/fonsp/Pluto.jl/releases/latest
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - run: "echo latest release: ${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}"
+
+            - name: Update Pkg environment
+              run: julia --project -e '
+                  import Pkg;
+                  Pkg.rm("Pluto");
+                  Pkg.add([Pkg.PackageSpec(name="Pluto", rev="${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}")]);
+                  Pkg.update();'
+
+            - uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: Update Manifest.toml
+                  tagging_message: "${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}"

@@ -1,0 +1,32 @@
+name: Tag version on Pluto release
+
+on:
+    workflow_dispatch:
+        inputs:
+            version:
+                description: "Pluto version, without v"
+                required: true
+                default: "0.14.1"
+
+jobs:
+    tag:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Install Julia
+              uses: julia-actions/setup-julia@v1
+              with:
+                  version: 1.6
+
+            - name: Update Pkg environment
+              run: julia --project -e '
+                  import Pkg;
+                  Pkg.rm("Pluto");
+                  Pkg.add([Pkg.PackageSpec(name="Pluto", rev="v${{ github.event.inputs.version }}")]);
+                  Pkg.update();'
+
+            - uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: Update Manifest.toml
+                  tagging_message: "v${{ github.event.inputs.version }}"

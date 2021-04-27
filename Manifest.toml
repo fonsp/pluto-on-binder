@@ -11,9 +11,9 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[Configurations]]
 deps = ["Crayons", "ExproniconLite", "OrderedCollections", "TOML"]
-git-tree-sha1 = "a755a76b8b2f07d66584d0d1f8d3e06d4f974d95"
+git-tree-sha1 = "fecec31dbbe3d545d9036b07aa8d012dfa1ca487"
 uuid = "5218b696-f38b-4ac9-8b61-a12ec717816d"
-version = "0.15.1"
+version = "0.15.2"
 
 [[Crayons]]
 git-tree-sha1 = "3f71217b538d7aaee0b69ab47d9b7724ca8afa0d"
@@ -43,9 +43,9 @@ deps = ["ArgTools", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
 [[ExproniconLite]]
-git-tree-sha1 = "33bfda47bb31f579b9225634b11a0b6a9d3e1511"
+git-tree-sha1 = "f6712ae2c1fe027cc7f9437ccc52401426289b89"
 uuid = "55351af7-c7e9-48d6-89ff-24e801d99491"
-version = "0.6.5"
+version = "0.6.8"
 
 [[FuzzyCompletions]]
 deps = ["REPL"]
@@ -55,9 +55,9 @@ version = "0.4.1"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "NetworkOptions", "Sockets", "URIs"]
-git-tree-sha1 = "c9f380c76d8aaa1fa7ea9cf97bddbc0d5b15adc2"
+git-tree-sha1 = "dc076fd92090242237cfbd5d7c76f52fb157fda5"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "0.9.5"
+version = "0.9.6"
 
 [[IniFile]]
 deps = ["Test"]
@@ -137,11 +137,11 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FuzzyCompletions", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "TableIOInterface", "Tables", "UUIDs"]
-git-tree-sha1 = "39c1766f7f418c0263447d4c23566407515d02dd"
-repo-rev = "v0.14.3"
+git-tree-sha1 = "78bc86650d9789645195ac3e11fa260c68de0829"
+repo-rev = "v0.14.4"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.14.3"
+version = "0.14.4"
 
 [[Printf]]
 deps = ["Unicode"]

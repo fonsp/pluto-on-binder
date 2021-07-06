@@ -21,9 +21,9 @@ uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
 version = "4.0.4"
 
 [[DataAPI]]
-git-tree-sha1 = "dfb3b7e89e395be1e25c2ad6d7690dc29cc53b1d"
+git-tree-sha1 = "ee400abb2298bd13bfc3df1c412ed228061a2385"
 uuid = "9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a"
-version = "1.6.0"
+version = "1.7.0"
 
 [[DataValueInterfaces]]
 git-tree-sha1 = "bfc1187b79289637fa0ef6d4436ebdfe6905cbd6"
@@ -54,10 +54,10 @@ uuid = "fb4132e2-a121-4a70-b8a1-d5b831dcdcc2"
 version = "0.4.1"
 
 [[HTTP]]
-deps = ["Base64", "Dates", "IniFile", "MbedTLS", "NetworkOptions", "Sockets", "URIs"]
-git-tree-sha1 = "86ed84701fbfd1142c9786f8e53c595ff5a4def9"
+deps = ["Base64", "Dates", "IniFile", "Logging", "MbedTLS", "NetworkOptions", "Sockets", "URIs"]
+git-tree-sha1 = "c6a1fff2fd4b1da29d3dccaffb1e1001244d844e"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "0.9.10"
+version = "0.9.12"
 
 [[IniFile]]
 deps = ["Test"]
@@ -137,11 +137,11 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FuzzyCompletions", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "TableIOInterface", "Tables", "UUIDs"]
-git-tree-sha1 = "ba8a2aa8d8ba5567684c43d5e7e414da8e8045d7"
-repo-rev = "v0.14.8"
+git-tree-sha1 = "8e84a3d6fb4935d04daa7033536d15c09b8bb1f1"
+repo-rev = "v0.14.9"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.14.8"
+version = "0.14.9"
 
 [[Printf]]
 deps = ["Unicode"]
@@ -181,9 +181,9 @@ version = "1.0.1"
 
 [[Tables]]
 deps = ["DataAPI", "DataValueInterfaces", "IteratorInterfaceExtensions", "LinearAlgebra", "TableTraits", "Test"]
-git-tree-sha1 = "aa30f8bb63f9ff3f8303a06c604c8500a69aa791"
+git-tree-sha1 = "8ed4a3ea724dac32670b062be3ef1c1de6773ae8"
 uuid = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
-version = "1.4.3"
+version = "1.4.4"
 
 [[Tar]]
 deps = ["ArgTools", "SHA"]

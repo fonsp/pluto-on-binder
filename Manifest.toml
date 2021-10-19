@@ -11,14 +11,14 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[Configurations]]
 deps = ["ExproniconLite", "OrderedCollections", "TOML"]
-git-tree-sha1 = "41d153a50b001a7c534f19e263540cca1a4e7cf3"
+git-tree-sha1 = "79e812c535bb9780ba00f3acba526bde5652eb13"
 uuid = "5218b696-f38b-4ac9-8b61-a12ec717816d"
-version = "0.16.4"
+version = "0.16.6"
 
 [[DataAPI]]
-git-tree-sha1 = "bec2532f8adb82005476c141ec23e921fc20971b"
+git-tree-sha1 = "cc70b17275652eb47bc9e5f81635981f13cea5c8"
 uuid = "9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a"
-version = "1.8.0"
+version = "1.9.0"
 
 [[DataValueInterfaces]]
 git-tree-sha1 = "bfc1187b79289637fa0ef6d4436ebdfe6905cbd6"
@@ -38,9 +38,9 @@ deps = ["ArgTools", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
 [[ExproniconLite]]
-git-tree-sha1 = "45b421f664eba4cd4bed8e5e706f69f2ccd8fcb3"
+git-tree-sha1 = "c04d5c3442126d75ee4500aa6b0e402cae3bf6ac"
 uuid = "55351af7-c7e9-48d6-89ff-24e801d99491"
-version = "0.6.10"
+version = "0.6.12"
 
 [[FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
@@ -53,9 +53,9 @@ version = "0.4.3"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "Logging", "MbedTLS", "NetworkOptions", "Sockets", "URIs"]
-git-tree-sha1 = "60ed5f1643927479f845b0135bb369b031b541fa"
+git-tree-sha1 = "14eece7a3308b4d8be910e265c724a6ba51a9798"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "0.9.14"
+version = "0.9.16"
 
 [[IniFile]]
 deps = ["Test"]
@@ -135,11 +135,11 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "TableIOInterface", "Tables", "UUIDs"]
-git-tree-sha1 = "d4955d6b5267ed826d03e3f05cc23426492b23c9"
-repo-rev = "v0.16.1"
+git-tree-sha1 = "c876a8d69359ac5c628170b292ec5323af1ec237"
+repo-rev = "v0.16.2"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.16.1"
+version = "0.16.2"
 
 [[Printf]]
 deps = ["Unicode"]
@@ -179,9 +179,9 @@ version = "1.0.1"
 
 [[Tables]]
 deps = ["DataAPI", "DataValueInterfaces", "IteratorInterfaceExtensions", "LinearAlgebra", "TableTraits", "Test"]
-git-tree-sha1 = "1162ce4a6c4b7e31e0e6b14486a6986951c73be9"
+git-tree-sha1 = "fed34d0e71b91734bf0a7e10eb1bb05296ddbcd0"
 uuid = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
-version = "1.5.2"
+version = "1.6.0"
 
 [[Tar]]
 deps = ["ArgTools", "SHA"]

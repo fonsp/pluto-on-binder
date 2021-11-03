@@ -38,9 +38,9 @@ deps = ["ArgTools", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
 [[ExproniconLite]]
-git-tree-sha1 = "c04d5c3442126d75ee4500aa6b0e402cae3bf6ac"
+git-tree-sha1 = "8b08cc88844e4d01db5a2405a08e9178e19e479e"
 uuid = "55351af7-c7e9-48d6-89ff-24e801d99491"
-version = "0.6.12"
+version = "0.6.13"
 
 [[FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
@@ -135,11 +135,11 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "TableIOInterface", "Tables", "UUIDs"]
-git-tree-sha1 = "ea742b160cac4540c7e259aed390550a4ce2b9a9"
-repo-rev = "v0.17.0"
+git-tree-sha1 = "39da9dbed4931b85d65029ee78f75231cbfe20c4"
+repo-rev = "v0.17.1"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.17.0"
+version = "0.17.1"
 
 [[Printf]]
 deps = ["Unicode"]

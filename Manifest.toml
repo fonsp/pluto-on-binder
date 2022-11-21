@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.8.2"
+julia_version = "1.8.3"
 manifest_format = "2.0"
 project_hash = "eee1de5fb68e851cb2b9276b7ea657e830f7d6b2"
 
@@ -15,9 +15,9 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[deps.BitFlags]]
-git-tree-sha1 = "629c6e4a7be8f427d268cebef2a5e3de6c50d462"
+git-tree-sha1 = "43b1a4a8f797c1cddadf60499a8a077d4af2cd2d"
 uuid = "d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35"
-version = "0.1.6"
+version = "0.1.7"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
@@ -75,9 +75,9 @@ version = "0.5.1"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "Dates", "IniFile", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "0c0e8d05fdd5e9792b31b7c7841f11a2ff8ad633"
+git-tree-sha1 = "e1acc37ed078d99a714ed8376446f92a5535ca65"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.5.4"
+version = "1.5.5"
 
 [[deps.HypertextLiteral]]
 deps = ["Tricks"]
@@ -186,9 +186,9 @@ version = "0.3.20+0"
 
 [[deps.OpenSSL]]
 deps = ["BitFlags", "Dates", "MozillaCACerts_jll", "OpenSSL_jll", "Sockets"]
-git-tree-sha1 = "5628f092c6186a80484bfefdf89ff64efdaec552"
+git-tree-sha1 = "df6830e37943c7aaa10023471ca47fb3065cc3c4"
 uuid = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
-version = "1.3.1"
+version = "1.3.2"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -208,11 +208,11 @@ version = "1.8.0"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Distributed", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "MIMEs", "Markdown", "MsgPack", "Pkg", "PrecompileSignatures", "REPL", "RegistryInstances", "RelocatableFolders", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "8f5bfe979b29e4d7e0dcf58463eb2abeb6e17292"
-repo-rev = "v0.19.15"
+git-tree-sha1 = "43d4448b5a568ee4bca8c77d6af2cedd721999f6"
+repo-rev = "v0.19.16"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.19.15"
+version = "0.19.16"
 
 [[deps.PrecompileSignatures]]
 git-tree-sha1 = "18ef344185f25ee9d51d80e179f8dad33dc48eb1"

@@ -9,20 +9,20 @@ jobs:
     tag:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v3
 
             - name: Install Julia
               uses: julia-actions/setup-julia@v1
               with:
-                  version: "1.8"
+                  version: '1.8'
 
-            - uses: octokit/request-action@v2.x
+            - uses: octokit/request-action@v3
               id: get_latest_release
               with:
                   route: GET /repos/fonsp/Pluto.jl/releases/latest
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - run: "echo latest release: ${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}"
+            - run: 'echo latest release: ${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}'
 
             - name: Update Pkg environment
               run: julia --project -e '
@@ -34,4 +34,4 @@ jobs:
             - uses: stefanzweifel/git-auto-commit-action@v4
               with:
                   commit_message: Update Manifest.toml
-                  tagging_message: "${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}"
+                  tagging_message: '${{ fromJson(steps.get_latest_release.outputs.data).tag_name }}'

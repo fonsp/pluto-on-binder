@@ -16,7 +16,7 @@ jobs:
               with:
                   version: '1.8'
 
-            - uses: octokit/request-action@v2
+            - uses: octokit/request-action@v2.x
               id: get_latest_release
               with:
                   route: GET /repos/fonsp/Pluto.jl/releases/latest

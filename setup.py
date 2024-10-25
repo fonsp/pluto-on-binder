@@ -12,3 +12,8 @@ setuptools.setup(
   },
   install_requires=['jupyter-server-proxy @ git+http://github.com/fonsp/jupyter-server-proxy@470e13ae0f7a8961202c76ea6bcbcfd27ed07e6a'],
 )
+
+# Start Pluto, open new notebook, shut down notebook.
+# This should precompile the PlutoRunner boot environment.
+import os
+os.system('julia --optimize=0 -e "import Pkg; Pkg.instantiate(); import Pluto; sesh = Pluto.ServerSession(); nb = Pluto.SessionActions.new(sesh; run_async=false); Pluto.SessionActions.shutdown(sesh, nb; async=false);"')

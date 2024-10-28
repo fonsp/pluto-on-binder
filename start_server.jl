@@ -4,7 +4,7 @@ import Pluto
 
 Pluto.run(
     host="0.0.0.0",
-    port=get(ENV, "JSP_PORT", nothing),
+    port=parse(Int64, get(ENV, "JSP_PORT", nothing)),
 
     pkgimages="no",
 

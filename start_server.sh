@@ -1,1 +1,1 @@
-julia --optimize=2 start_server.jl
+julia --optimize=0 start_server.jl

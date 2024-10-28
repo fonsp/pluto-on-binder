@@ -16,4 +16,4 @@ setuptools.setup(
 # Start Pluto, open new notebook, shut down notebook.
 # This should precompile the PlutoRunner boot environment.
 import os
-os.system('julia --optimize=0 warmup_server.jl')
+os.system('julia --optimize=2 warmup_server.jl')

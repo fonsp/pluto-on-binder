@@ -16,4 +16,4 @@ setuptools.setup(
 # Start Pluto, open new notebook, shut down notebook.
 # This should precompile the PlutoRunner boot environment.
 import os
-os.system('julia --optimize=0 -e "@info("instantiate from setup.py"); import Pkg; Pkg.instantiate(); @info("import Pluto from setup.py"); import Pluto; @info("starting new notebook"); sesh = Pluto.ServerSession(options=Pluto.Configuration.from_flat_kwargs(; pkgimages="no")); nb = Pluto.SessionActions.new(sesh; run_async=false); @info("shutting down notebook"); Pluto.SessionActions.shutdown(sesh, nb; async=false); @info("setup.py done");"')
+os.system('julia --optimize=0 warmup_server.jl')

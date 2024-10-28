@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "hello from postBuild"
+
+set -e
+
+# Start Pluto, open new notebook, shut down notebook.
+# This should precompile the PlutoRunner boot environment.
+julia --optimize=2 warmup_server.jl

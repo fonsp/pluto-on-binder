@@ -10,5 +10,5 @@ setuptools.setup(
           'pluto = plutoserver:setup_plutoserver',
       ]
   },
-  install_requires=['jupyter-server-proxy @ git+http://github.com/fonsp/jupyter-server-proxy@3a58aa5005f942d0c208eab9a480f6ab171142ef'],
+  install_requires=['jupyter-server-proxy @ git+http://github.com/fonsp/jupyter-server-proxy@470e13ae0f7a8961202c76ea6bcbcfd27ed07e6a'],
 )

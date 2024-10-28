@@ -1,0 +1,9 @@
+#!/bin/bash
+set -ex
+
+echo "hello from postBuild"
+
+# Optimziation:
+# Start Pluto, open new notebook, shut down notebook.
+# This should precompile the PlutoRunner boot environment, so it launches faster when opening the new notebook on the live binder.
+julia --optimize=0 warmup_server.jl

@@ -6,15 +6,10 @@ Pkg.instantiate()
 import Pluto
 
 @info("starting new notebook from setup.py")
-sesh = Pluto.ServerSession(options=Pluto.Configuration.from_flat_kwargs(; 
-    pkgimages="no",
-))
+sesh = Pluto.ServerSession(options=Pluto.Configuration.from_flat_kwargs(; include("pluto_server_config.jl")...))
 nb = Pluto.SessionActions.new(sesh; run_async=false)
 
 
 @info("shutting down notebook from setup.py")
 Pluto.SessionActions.shutdown(sesh, nb; async=false)
 @info("setup.py done");
-
-
-error("DOES THIS EVEN WORK")

@@ -1,5 +1,5 @@
 (
-    pkgimages="no",
+    pkgimages="existing",
     optimize=1,
 
     require_secret_for_open_links=false,

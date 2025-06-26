@@ -2,15 +2,13 @@
 
 You can use binder to run notebooks for free on the web.
 
-### Step 1
+### Option A: try in your browser
+Go to [plutojl.org/#try](https://plutojl.org/#try) to learn how you can start Pluto directly in your browser, without having to install Julia. This is great for trying out Pluto, but it's not ideal when you want to save your work.
 
-**Upload your notebook to the web**, and copy the link to your notebook file. An easy way to put notebook files online is using [https://gist.github.com/](https://gist.github.com/)
+### Option B: a notebook file
+Every HTML export that you create with Pluto will come with an "Edit or run" button built-in, which lets you run the notebook with binder. That means that you can share a notebook, and use it to start a binder session.
 
-### Step 2
-
-Go to [https://pluto-on-binder.glitch.me/](https://pluto-on-binder.glitch.me/) and paste your notebook link into the box. This will **generate a binder link** for your notebook that you can share with your friends!
-
-> [https://pluto-on-binder.glitch.me/](https://pluto-on-binder.glitch.me/)
+To use this feature, just [Export your notebook to HTML](https://plutojl.org/en/docs/export-html/). Now you can open the HMTL file, or share it with someone else. [pluto.land](https://pluto.land) is an easy way to share notebooks!
 
 # Automatic Binder and HTML exports
 If you have a repository with Pluto notebooks and you want to automatically generate HTML exports with a Binder button using GitHub Actions and GitHub Pages, take a look at our [template repository](https://github.com/JuliaPluto/static-export-template).

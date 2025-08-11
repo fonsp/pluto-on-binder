@@ -1,6 +1,6 @@
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.10.9"
+julia_version = "1.10.10"
 manifest_format = "2.0"
 project_hash = "7308a24dbc9701d3a8dce566e15c60e14d09a3be"
 
@@ -27,9 +27,9 @@ version = "0.7.8"
 
 [[deps.Compat]]
 deps = ["TOML", "UUIDs"]
-git-tree-sha1 = "8ae8d32e09f0dcf42a36b90d4e17f5dd2e4c4215"
+git-tree-sha1 = "0037835448781bb46feb39866934e243886d756a"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "4.16.0"
+version = "4.18.0"
 
     [deps.Compat.extensions]
     CompatLinearAlgebraExt = "LinearAlgebra"
@@ -94,9 +94,9 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[deps.GracefulPkg]]
 deps = ["Compat", "Pkg", "TOML"]
-git-tree-sha1 = "eee0ecee0391689c354c03aadc77018ee7bb85fc"
+git-tree-sha1 = "698050b04f3cc0906d0817329d6e96484bf238eb"
 uuid = "828d9ff0-206c-6161-646e-6576656f7244"
-version = "2.2.1"
+version = "2.3.0"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "PrecompileTools", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
@@ -121,9 +121,9 @@ version = "1.0.0"
 
 [[deps.JLLWrappers]]
 deps = ["Artifacts", "Preferences"]
-git-tree-sha1 = "a007feb38b422fbdab534406aeca1b86823cb4d6"
+git-tree-sha1 = "0533e564aae234aff59ab625543145446d8b6ec2"
 uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-version = "1.7.0"
+version = "1.7.1"
 
 [[deps.LRUCache]]
 git-tree-sha1 = "5519b95a490ff5fe629c4a7aa3b3dfc9160498b3"
@@ -182,9 +182,9 @@ version = "1.1.0"
 
 [[deps.Malt]]
 deps = ["Distributed", "Logging", "RelocatableFolders", "Serialization", "Sockets"]
-git-tree-sha1 = "02a728ada9d6caae583a0f87c1dd3844f99ec3fd"
+git-tree-sha1 = "636abf4fb184be05888dacc0b636fe0911d6d746"
 uuid = "36869731-bdee-424d-aa32-cab38c994e3b"
-version = "1.1.2"
+version = "1.2.0"
 
 [[deps.Markdown]]
 deps = ["Base64"]
@@ -223,9 +223,9 @@ version = "1.5.0"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "9216a80ff3682833ac4b733caa8c00390620ba5d"
+git-tree-sha1 = "2ae7d4ddec2e13ad3bddf5c0796f7547cf682391"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.5.0+0"
+version = "3.5.2+0"
 
 [[deps.OrderedCollections]]
 git-tree-sha1 = "05868e21324cede2207c6f0f466b4bfef6d5e7ee"
@@ -239,11 +239,11 @@ version = "1.10.0"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Downloads", "ExpressionExplorer", "FileWatching", "GracefulPkg", "HTTP", "HypertextLiteral", "InteractiveUtils", "LRUCache", "Logging", "LoggingExtras", "MIMEs", "Malt", "Markdown", "MsgPack", "Pkg", "PlutoDependencyExplorer", "PrecompileSignatures", "PrecompileTools", "REPL", "RegistryInstances", "RelocatableFolders", "Scratch", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "bafdc7b4c064d9a473b08e70085273061251b8dd"
-repo-rev = "v0.20.13"
+git-tree-sha1 = "0885a35db1e99f9ad039cd3a1a8fe09cc43f38b4"
+repo-rev = "v0.20.14"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.20.13"
+version = "0.20.14"
 
 [[deps.PlutoDependencyExplorer]]
 deps = ["ExpressionExplorer", "InteractiveUtils", "Markdown"]
@@ -264,9 +264,9 @@ version = "1.2.1"
 
 [[deps.Preferences]]
 deps = ["TOML"]
-git-tree-sha1 = "9306f6085165d270f7e3db02af26a400d580f5c6"
+git-tree-sha1 = "0f27480397253da18fe2c12a4ba4eb9eb208bf3d"
 uuid = "21216c6a-2e73-6563-6e65-726566657250"
-version = "1.4.3"
+version = "1.5.0"
 
 [[deps.Printf]]
 deps = ["Unicode"]
@@ -345,14 +345,14 @@ uuid = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
 version = "0.11.3"
 
 [[deps.Tricks]]
-git-tree-sha1 = "6cae795a5a9313bbb4f60683f7263318fc7d1505"
+git-tree-sha1 = "372b90fe551c019541fafc6ff034199dc19c8436"
 uuid = "410a4b4d-49e4-4fbc-ab6d-cb71b17b3775"
-version = "0.1.10"
+version = "0.1.12"
 
 [[deps.URIs]]
-git-tree-sha1 = "24c1c558881564e2217dcf7840a8b2e10caeb0f9"
+git-tree-sha1 = "bef26fb046d031353ef97a82e3fdb6afe7f21b1a"
 uuid = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
-version = "1.6.0"
+version = "1.6.1"
 
 [[deps.UUIDs]]
 deps = ["Random", "SHA"]

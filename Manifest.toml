@@ -239,17 +239,17 @@ version = "1.10.0"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Downloads", "ExpressionExplorer", "FileWatching", "GracefulPkg", "HTTP", "HypertextLiteral", "InteractiveUtils", "LRUCache", "Logging", "LoggingExtras", "MIMEs", "Malt", "Markdown", "MsgPack", "Pkg", "PlutoDependencyExplorer", "PrecompileSignatures", "PrecompileTools", "REPL", "RegistryInstances", "RelocatableFolders", "Scratch", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "0885a35db1e99f9ad039cd3a1a8fe09cc43f38b4"
-repo-rev = "v0.20.14"
+git-tree-sha1 = "6f5b316f990235ebbaca22a26e559eff010f6233"
+repo-rev = "v0.20.15"
 repo-url = "https://github.com/fonsp/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.20.14"
+version = "0.20.15"
 
 [[deps.PlutoDependencyExplorer]]
 deps = ["ExpressionExplorer", "InteractiveUtils", "Markdown"]
-git-tree-sha1 = "9071bfe6d1c3c51f62918513e8dfa0705fbdef7e"
+git-tree-sha1 = "c3e5073a977b1c58b2d55c1ec187c3737e64e6af"
 uuid = "72656b73-756c-7461-726b-72656b6b696b"
-version = "1.2.1"
+version = "1.2.2"
 
 [[deps.PrecompileSignatures]]
 git-tree-sha1 = "18ef344185f25ee9d51d80e179f8dad33dc48eb1"

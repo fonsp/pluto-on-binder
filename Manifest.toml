@@ -182,9 +182,9 @@ version = "1.1.0"
 
 [[deps.Malt]]
 deps = ["Distributed", "Logging", "RelocatableFolders", "Serialization", "Sockets"]
-git-tree-sha1 = "987fb06a33e6200c3e75133d180f5bfdda37f337"
+git-tree-sha1 = "c2335b4e291f2422e2be8abf8936ccad58a98992"
 uuid = "36869731-bdee-424d-aa32-cab38c994e3b"
-version = "1.4.0"
+version = "1.4.1"
 
 [[deps.Markdown]]
 deps = ["Base64"]
@@ -223,9 +223,9 @@ version = "1.6.1"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "c9cbeda6aceffc52d8a0017e71db27c7a7c0beaf"
+git-tree-sha1 = "2ac022577e5eac7da040de17776d51bb770cd895"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.5.5+0"
+version = "3.5.6+0"
 
 [[deps.OrderedCollections]]
 git-tree-sha1 = "05868e21324cede2207c6f0f466b4bfef6d5e7ee"
@@ -239,11 +239,11 @@ version = "1.10.0"
 
 [[deps.Pluto]]
 deps = ["Base64", "Configurations", "Dates", "Downloads", "ExpressionExplorer", "FileWatching", "GracefulPkg", "HTTP", "HypertextLiteral", "InteractiveUtils", "LRUCache", "Logging", "LoggingExtras", "MIMEs", "Malt", "Markdown", "MsgPack", "Pkg", "PlutoDependencyExplorer", "PrecompileSignatures", "PrecompileTools", "REPL", "Random", "RegistryInstances", "RelocatableFolders", "SHA", "Scratch", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "bded9024db4a669d9d628adbe80d32a941617f16"
-repo-rev = "v0.20.24"
+git-tree-sha1 = "8a3ff632cae8ac73192aa316689f44a18a09820d"
+repo-rev = "v0.20.25"
 repo-url = "https://github.com/JuliaPluto/Pluto.jl.git"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.20.24"
+version = "0.20.25"
 
 [[deps.PlutoDependencyExplorer]]
 deps = ["ExpressionExplorer", "InteractiveUtils", "Markdown"]
